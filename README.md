@@ -5,7 +5,7 @@ A Python script to download Chrome and Firefox browser extensions by ID, saving 
 ## Features
 
 - **Multi-Platform Support**: Download extensions from Chrome (CRX3 format) or Firefox (XPI format).
-- **Version Control**: Fetch the latest version or specify a particular version (Firefox supports listing available versions).
+- **Version Control**: Fetch the latest version or specify a particular version.
 - **Batch Downloads**: Process multiple extensions from a file or comma-separated list.
 - **Progress Indicators**: Visual progress bars for downloads (requires tqdm).
 - **Robust Handling**: Retries on failures, error recovery, and validation for IDs and files.
@@ -18,8 +18,7 @@ A Python script to download Chrome and Firefox browser extensions by ID, saving 
 
 ## Installation
 
-1. Download `extension.py` to your local machine.
-2. (Optional) Install tqdm: `pip install tqdm` for download progress bars.
+Download `extension.py` to your local machine.
 
 ## Usage
 
@@ -143,6 +142,3 @@ python extension.py ublock-origin --platform firefox
 - **Security**: This script downloads from official sources. Use for legitimate purposes only.
 - **File Formats**: Chrome CRX files are stripped to ZIP; Firefox XPI files are saved as-is (already ZIP-compatible).
 - **Dependencies**: All core features work with stdlib; tqdm enhances UX.
-
-For issues or feedback, report at https://github.com/sst/opencode/issues.</content>
-<parameter name="filePath">/root/tools/README.md
